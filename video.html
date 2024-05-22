@@ -8,22 +8,25 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
             margin: 0;
+            padding: 0;
             background-color: #f9f9f9;
         }
 
         header {
             background-color: #f2f2f2;
             padding: 20px;
-            font-size: 24px;
+            font-size: 18px;
             font-weight: bold;
             text-align: center;
             width: 100%;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         form {
@@ -35,6 +38,9 @@
             border: 1px solid #ddd;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
         }
 
         label {
@@ -46,7 +52,6 @@
         input[type="password"] {
             padding: 10px;
             width: 100%;
-            max-width: 300px;
             margin-bottom: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -61,19 +66,25 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            width: 100%;
         }
 
         input[type="submit"]:hover {
             background-color: #0056b3;
+        }
+
+        video,
+        audio {
+            width: 100%;
+            max-width: 600px;
+            margin: 10px 0;
         }
     </style>
 </head>
 
 <body>
     <header>
-        Estos videos y audios contiene la evidencia de Joel Eduardo y Laura Elena realizando una extorsion, Los medios
-        de
-        comunicacion ya tiene el nombre de usuario y la contraseña se hara publica en breve.
+        Estos videos y audios contienen la evidencia de Joel Eduardo y Laura Elena realizando una extorsión. Este material se hara publico en breve.
     </header>
     <main>
         <form action="ver_video.html" method="post">
