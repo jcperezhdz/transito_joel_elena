@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje Importante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        img {
+            margin: 20px;
+            height: 350px;
+            border: 1px solid red;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        iframe,
+        video {
+            margin: 20px;
+            max-width: 100%;
+        }
+
+        .download-link {
+            display: block;
+            margin: 10px 0;
+            font-size: 16px;
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Joel Eduardo y Laura Elena, tengo evidencias sobre su extorsion.
+    </header>
+    <main>
+        <img src="1000.png" alt="Imagen 1000" onclick="window.open(this.src, '_blank')">
+        <img src="19000.png" alt="Imagen 19000" onclick="window.open(this.src, '_blank')">
+        <h1>Aqui esta uno de los audios</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1fDpQ-4dM0Y" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <h1>También tengo evidencia en video</h1>
+        <a href="video.html" class="download-link">Abrir Video</a>
+    </main>
+</body>
+
+</html>
